@@ -8,20 +8,13 @@ namespace Engine.Models
 {
     public class Player
     {
-        private string Name { get; set; }
-        private string CharacterClass { get; set; }
-        private int HitPoints { get; set; }
-        private int ExperiencePoints { get; set; }
-        private int Level { get; set; }
-        private int Gold { get; set; }
+        public string Name { get; set; }
+        public string CharacterClass { get; set; }
+        public int HitPoints { get; set; }
+        public int ExperiencePoints { get; set; }
+        public int Level { get; set; }
+        public int Gold { get; set; }
 
-        public void setName(string playerName)
-        {
-            Name = playerName;
-        }
 
-        public void setGold(int gold) { 
-            Gold = gold;
-        }
     }
 }
